@@ -1,0 +1,100 @@
+.div_cart_page{
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.div_cart_page .fnt-wgh7{
+    margin-bottom: 55px;
+}
+
+.div_product .div_info{
+    margin: 0px;
+    justify-content: space-evenly;
+}
+
+hr{
+    height: 1px;
+    background-color: #E5E5E5;
+    color: #E5E5E5;
+    border: none;
+}
+
+.div_product{
+    display: flex;
+    justify-content: space-between;
+}
+
+.div_arrow_count img{
+    height: 45px;
+    width: 45px;
+}
+
+.div_arrow_count{
+    text-align: center;
+    margin-right: 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:space-between;
+}
+
+
+
+.div_slider{
+    width: 193px;
+    height: 290px;
+    overflow: hidden;
+    position: relative;
+}
+
+.div_slider .slider{
+    display: flex;
+}
+
+.div_vector_buttons{
+    display: flex;
+    position: absolute;
+    right: 16px;
+    top: 255px;
+    z-index: 1;
+}
+.div_vector_buttons .button_prev{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 24px;
+    width: 24px;
+    border: none;
+    background-color: #000000BA;
+    margin-right: 8px;
+    padding-top: 3px;
+    cursor: pointer;
+}
+
+.div_vector_buttons .button_next{
+    transform: rotate(180deg);
+    height: 24px;
+    width: 24px;
+    border: none;
+    background-color: #000000BA;
+    padding-right: 8px;
+    padding-top: 5px;
+    cursor: pointer;
+}
+
+.img_slider{
+    width: 200px !important;
+    height: 290px;
+    object-fit:contain;
+}
+
+.div_right_info{
+    display: flex;
+    min-width: 270px;
+}
+
+.div_cart_page .div_resume .green_button{
+    width: 280px;
+}

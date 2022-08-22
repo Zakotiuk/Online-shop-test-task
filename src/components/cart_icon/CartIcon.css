@@ -1,0 +1,29 @@
+.div_cart_icon{ 
+    position: relative;
+} 
+
+.img_basket{
+    height: 21px;
+    margin-top: 18px;
+    cursor: pointer;
+    z-index: 1;
+    position: relative;
+}
+
+.circle_counter{
+    /*position*/
+    z-index: 3;
+    position: absolute;
+    left: 15px;
+    /*make it cycle*/
+    width: 20px;
+    height: 20px;
+    border-radius: 1rem;
+    /*additional details*/
+    margin-top: 10px;
+    padding-top: 1px;
+    font-size: 14px;
+    color: white;
+    background-color: black;
+    text-align: center;
+} 

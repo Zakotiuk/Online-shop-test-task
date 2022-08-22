@@ -1,0 +1,86 @@
+.fnt-sz42{
+    font-size: 42px;
+}
+.fnt-sz32{
+    font-size: 32px;
+}
+
+.fnt-sz30{
+    font-size: 30px;
+}
+
+.fnt-sz24{
+    font-size: 24px;
+}
+
+.fnt-sz18{
+    font-size: 18px;
+}
+
+.fnt-sz16{
+    font-size: 16px;
+}
+
+.fnt-sz14{
+    font-size: 14px;
+}
+
+.fnt-wgh1{
+    font-weight: 100;
+}
+
+.fnt-wgh2{
+    font-weight: 200;
+}
+
+.fnt-wgh3{
+    font-weight: 300;
+}
+
+.fnt-wgh4{
+    font-weight: 400;
+}
+
+.fnt-wgh5{
+    font-weight: 500;
+}
+
+.fnt-wgh6{
+    font-weight: 600;
+}
+
+.fnt-wgh7{
+    font-weight: 700;
+}
+
+.fnt-wgh8{
+    font-weight: 800;
+}
+
+.fnt-fml-ssp{
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.fnt-fml-rbt{
+    font-family: 'Roboto', sans-serif;
+}
+
+.fnt-fml-rbt-con{
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.fnt-fml-rlw{
+    font-family: 'Raleway', sans-serif;
+}
+
+.mrg-btm8{
+    margin-bottom: 8px;
+}
+
+.mrg-btm43{
+    margin-bottom: 43px;
+}
+
+.upperCase{
+    text-transform: uppercase;
+}

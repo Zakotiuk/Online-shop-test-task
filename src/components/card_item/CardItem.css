@@ -1,0 +1,74 @@
+.div_card_item{
+    padding: 11px 0px 16px 0px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 100px;
+    position: relative;
+    width: 380px;
+    padding-left: 11px;
+}
+
+.div_card_item  ._image{
+    width: 370px;
+    height: 338px;
+    margin-bottom: 21px;
+    object-fit: scale-down;;
+    z-index: 1;
+    position: relative;
+}
+
+.div_card_item span{
+    margin-bottom: 5px;
+}
+
+/*sold template*/
+.div_blure{
+    z-index: 3;
+    position: absolute;
+    left: 11px;
+    width: 370px;
+    height: 338px;
+    background-color: #ffffff85;
+    display: flex;
+}
+
+.div_blure span{
+    color: #8D8F9A;
+    margin: auto;
+    padding: auto;
+    text-transform: uppercase;
+}
+
+.span_sold{
+    color: #8D8F9A;
+}
+
+/*active card template*/
+
+.div_card_item:hover{
+    box-shadow: 0px 0px 22px #cdcfd0d4;
+}
+.div_green_basket{
+    height: 52px;
+    width: 52px;
+    background-color: #5ECE7B;
+    border-radius: 3rem;
+    z-index: 3;
+    position: absolute;
+    bottom: 62px;
+    right: 30px;
+    visibility: hidden;
+
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+
+.div_card_item:hover .div_green_basket{
+    visibility: visible;
+}
+
+.div_green_basket img{
+    height: 24px;
+    width: 24px;
+}
